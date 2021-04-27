@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="shortcut icon" href="img/karateka.png" />
+    <title>Inscripción para escuela de Karate</title>
+</head>
+<body>
+    <div id="navegation-bar">
+        <nav>
+         
+            <ul>
+                <img class="imagen1" src="img/vincha1.PNG" alt="imagen1">
+                <img class="imagen3" src="img/vincha3.PNG" alt="imagen3">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="Club/Club.html">Club</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <a href="inicio.html"><img src="img/karateka.png" alt="logo"></a>
+                <li><a href="Torneos/Torneo.html">Torneo</a></li>
+                <li><a href="formulario.html">Inscripción en línea</a></li>
+                <li><a href="Videos/Videos.html">Videos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="about-form">
+        <div class="about-title">
+            <h2>Acerca de Inscripción</h2>
+        </div>
+        <div class="about-text">
+            <p>Necesitamos tener tu información para poder tenerte mas cerca y contactarte mas rápido en caso de que necesitemos información extra para tu matricula en la academia de karate.</p>
+            <li><strong>¿Por qué necesitamos tu correo?</strong></li>
+           <p> Esto es debido a que te estaremos enviando los eventos proximos que están por salir, y que por lo tanto con anticipación tendrás que estar listo para ser un buen campeón.</p>
+            
+            <li><strong>¿Por qué necesitamos tu departamento de vivencia?</strong></li>
+          <p>  Porque necesitamos saber que tan lejos estás de nosotros, y por tanto acorde a esto medimos nuestros horarios para los que están lejos de casa, como la espera de microbuses y buses de ruta.</p>
+
+<li><strong>¿Por qué necesitamos tu lugar de vivencia?</strong></li>
+<p>Porque estamos para servirte, un grupo unido alcanza la victoria, y esto es que si te encuentras en problemas estaremos para tenderte la mano como grupo. Como dice el dicho, hoy será el, pero mañana puedes ser tú.</p>
+<br>
+<p>Si no ingresas información real de tu persona, no podremos incluirte en la academia.</p>
+        </div>
+    </div>
+    <div class="contenedor">
+        <form id="formulario">
+            <fieldset>
+            <div class="form-row">
+                <h2>Inscripción para escuela de Karate</h2>
+                <div class="form-group col-md-12 text-center">
+                    <img src="img/karateka.png" class="imagen">
+                </div> 
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="titulo">Nombres: </label>
+                    <input type="text" class="form-control" name="nombre" autocomplete="off" id="nombre" placeholder="Ingrese sus nombres">
+                    <br><label for="titulo">Apellidos:  </label>
+                    <input type="text" class="form-control" name="nombre" id="fecha" autocomplete="off" placeholder="Ingrese sus apellidos">
+                    <br>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="titulo">Fecha de Nacimiento:  </label>
+                    <input type="date" class="form-control" name="nombre" autocomplete="off" id="dui">
+                    <br>
+                    <label for="titulo">Género: </label>
+                    <br>
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio" value="Masculino" id="Masculino" name="radio">
+                    &nbsp;&nbsp; 
+                    <label for="Femenino">Femenino</label>
+                    
+                    <input type="radio" value="Femenino" id="Femenino" name="radio">
+                </div>
+                    <br>
+                    <br>
+                    <div id="form-group col-md-12">
+                        <label for="titulo">Correo Electrónico: </label>
+                        <input type="email" class="form-control" name="correo" id="correo" placeholder="Ingresa tu correo electrónico: " autocomplete="off">
+                        <br>
+                        <label for="titulo">Departamento: </label>
+                       <select name="departamento" class="form-control" id="departamento">
+                            <option value="" selected disabled>--Seleccionar--</option>
+                            <option value="Santa Ana">Santa Ana</option>
+                            <option value="Sonsonate">Sonsonate</option>
+                            <option value="Ahuachapan">Ahuachapán</option>
+                            <option value="Chalatenango">Chalatenango</option>
+                            <option value="La libertad">La Libertad</option>
+                            <option value="San Salvador">San Salvador</option>
+                            <option value="Cuscatlán">Cuscatlán</option>
+                            <option value="La Paz">La Paz</option>
+                            <option value="Cabañas">Cabañas</option>
+                            <option value="San Vicente">San Vicente</option>
+                            <option value="Usulután">Usulután</option>
+                            <option value="San Miguel">San Miguel</option>
+                            <option value="Morazán">Morazán</option>
+                            <option value="La Union">La Unión</option>
+                            
+                       </select>
+                        <br>
+                        <label for="titulo">Domicilio: </label>
+                        <textarea name="domicilio" id="domicilio" cols="55" rows="10" placeholder="Ingresa tu domicilio"></textarea>
+                    
+                    </div>
+                    
+            </div>
+    
+            <div class="btn-container">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="reset" class="btn btn-lg btn-block botonCancelar" value="Cancelar">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="submit" id="registrar" class="btn btn-lg btn-block botonRegistrar" value="Registrar" onclick="Register();"> 
+                    </div>
+                </div>
+            </div>
+            
+    
+        </div>
+    
+    
+        <div id="container-msg">
+        </fieldset>
+        </form>
+        
+    </div>
+    <div id="footer-section">
+        <footer>
+         <section class="social-media">
+            <a href="#"><img src="img/facebook2.svg" alt=""></a>
+            <a href="#"><img src="img/twitter.svg" alt=""></a>
+            <a href="#"><img src="img/youtube.svg" alt=""></a>
+            <a href="#"><img src="img/instagram.svg" alt=""></a>
+         </section>
+         <section class="crewmates">
+               <p>Todos los derechos reservados | Campos - Pérez 2021</p>
+         </section>
+        </footer>
+    </div>
+
+    <script src="js/validacion.js"></script>
+</body>
+</html>

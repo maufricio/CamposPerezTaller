@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: 'Back.png';
+	background-repeat;
+}
+
+.contenedor-club{
+	margin-top: 9vh;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-bottom: 24vh;
+}
+
+.title{
+	text-align: center;
+	margin-bottom: 3.5vh;
+}
+h2{
+	font-size: 3vw;
+}
+
+.clase1{
+  background-color: #EFB810;
+  margin-bottom: 2vh;
+}
+.titulo1{
+	text-align: center;
+	margin-top: 1.5vh;
+	margin-bottom: 1vh;
+}
+.texto1{
+	text-align: center;
+	margin-bottom: 2vh;
+}
+
+.clase2{
+  background-color: #E3E3E5;
+  margin-bottom: 2vh;
+}
+.titulo2{
+	text-align: center;
+	margin-top: 1.5vh;
+	margin-bottom: 1vh;
+}
+.texto2{
+	text-align: center;
+	margin-bottom: 2vh;
+}
+
+.clase3{
+  background-color: #CD7F32;
+  margin-bottom: 2vh;
+}
+.titulo3{
+	text-align: center;
+	margin-top: 1.5vh;
+	margin-bottom: 1vh;
+}
+.texto3{
+	text-align: center;
+	margin-bottom: 2vh;
+}

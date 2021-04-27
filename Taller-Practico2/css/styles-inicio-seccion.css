@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap" rel="stylesheet');
+*{
+    margin:0;padding:0;box-sizing:border-box;font-family: 'Montserrat', sans-serif;list-style-type: none; text-decoration: none;color:black;
+   
+}
+#navigation-bar{
+   
+    width:100%;
+}
+nav{
+  background-color:#DC3639;color:white;font-weight: 500;
+}
+nav ul{
+    margin:10px 20px 0px 260px;display:inline-flex;
+}
+nav ul li{
+    margin:16px 35px 5px 35px;
+}
+nav ul li a:hover{
+    transition:all 300ms;color:black;
+}
+nav ul img{
+    width:70px;height:70px;
+}
+nav ul li a{
+    color:rgb(255, 255, 255);transition:all 300ms;
+}
+.imagen1{
+    position:absolute; width:200px;left:0;
+}
+.imagen3{
+    position:absolute;right:0; width:150px;
+}
+
+/*footer*/
+#footer-section{
+    width:100%;
+    position:relative;
+    top:537px;
+}
+#footer-section .social-media{
+    width:300px;
+    margin-top:-350px;
+}
+#footer-section .social-media img{
+    margin: 0px 10px 0px 20px;
+}
+#footer-section .crewmates{
+    width:450px;
+    float:right;
+    margin-top:-35px;
+    font-weight:800;
+}
+
+
+/*Contenido de la pagina*/
+#content-page{
+    width:100%;
+}
+#content-page img{
+    position:absolute;
+    width:500px;
+    height:500px;
+    margin:10px 100px 0px 450px;
+}
+#content-page #info-bienvenida{
+    width:100%;
+    position:absolute;
+    top:270px;
+}
+#content-page #info-bienvenida h1{
+    text-align:center;
+    margin-left:35px;
+    font-size:4em;
+}
+#content-page #info-bienvenida h3{
+    margin-top:20px;
+    text-align:center;
+    font-weight:300;
+}
+
+#content-services {
+    width: 100%;   
+}
+#content-services #info-servicio{
+    margin-top:570px;
+}
+ #info-servicio .service1{
+    width:630px;
+    height:auto;
+    margin:20px 10px 70px 20px; 
+    float:left;
+}
+#info-servicio .service1 .service1-img{
+    width:200px;
+    width:200px;
+    border-radius:50px;
+
+}
+ .service1-img img{
+    width:200px;
+    height:200px;
+    border-radius:40%;
+}
+.service1 .service1-text{
+    width:420px;
+    margin:-200px 0px 0px 210px;
+}
+.service1-text h1{
+    text-align:center;
+}
+.service1-text p{
+    line-height: 25px;
+    text-align:justify;
+}
+
+
+/*PARTE 2*/
+#parte2{
+    margin-top:200px;
+    margin-bottom:-250px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #DC3639, #272322);
+    position: relative;
+    overflow: hidden;
+}
+
+.header_nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header_nav h1{
+    color: #fff;
+    font-family: 'Gagalin';
+}
+
+.header_nav nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.banner_title h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner_title .llamanos{
+    color: #272322;
+    font-size: 20px;
+    font-weight:800;
+    text-decoration: none;
+    display: inline-block;
+    background: white;
+    margin-bottom:20px;
+    margin-left:50px;
+    padding: 20px;
+    transition:all 300ms;
+}
+.banner_title .llamanos:hover{
+    color:white;
+    background: #272322;
+    transition:all 300ms;
+}
+
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+.banner_img img{
+    width: 600px;
+    display: block;
+}
+
+/* burbujas */
+
+.burbuja{
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.banner_title .social-media{
+    width:300px;
+}
+.banner_title .social-media img{
+    margin: 0px 10px 0px 20px;
+}
+
+/*RECORDATORIO*/
+#recordatorio{
+    margin-top:400px;
+    margin-left:100px;
+
+}
+#recordatorio .llamanos{
+    color: white;
+    font-size: 20px;
+    font-weight:800;
+    text-decoration: none;
+    display: inline-block;
+    background: #ee0000;
+    margin-bottom:20px;
+    margin-left:50px;
+    padding: 20px;
+    transition:all 300ms;
+    margin-left:1050px;
+    margin-top:-80px;
+}
+#recordatorio .llamanos:hover{
+    color:white;
+    background: #272322;
+    transition:all 300ms;
+}
